@@ -10,14 +10,18 @@ body {
 }
 
 .header {
-    margin: 0 auto;
+    margin: 10vh auto;
     width: 60vw;
-    background-color: aquamarine;
     padding: 20px;
+}
+
+.header > * {
+    margin: 10px;
 }
 
 #searchbox {
     width: 75%;
+    background-color: snow;;
 }
 
 #clicker {
@@ -28,5 +32,43 @@ body {
     display: none;
 }
 
+#searchbox, button {
+    font-family: inherit;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+    width: 30vw
+}
 
+#searchbox {
+    outline: none;
+    border-bottom: 2px solid slateblue;
+    
+}
+
+
+button {
+    background-color: slateblue;
+    color: #fdebec;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-family: inherit;
+    margin: 10px;
+}
+
+#gif-results {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gif {
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
 
