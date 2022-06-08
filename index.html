@@ -15,6 +15,7 @@
 <body>
     <div class="header">
         <h1>Giphy Party!</h1>
+        <p>Powered by <a href="https://giphy.com/">GIPHY</a></p>
         <form> <!--needs to add form action here ; http://api.giphy.com/v1/gifs/search?api_key=MY_API_KEY&q=puppy -->
             <input type="text" id="searchbox" name="searchbox" placeholder="Enter keywords..." required>
             <button id='clicker'>Search!</button>
@@ -22,8 +23,6 @@
     </div>
     <div id="gif-results"></div>
     <button id="load-more" class="hidden">Load More</button>
-    <span>Powered by <a href="https://giphy.com/">GIPHY</a></p>
-
     <script src="app.js"></script>
 </body>
 </html>
