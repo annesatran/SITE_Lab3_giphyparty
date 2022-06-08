@@ -58,7 +58,8 @@ button {
 
 #gif-results {
     width: 60vw;
-    margin: 0 auto;
+    margin: 30px auto;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,3 +73,7 @@ button {
     padding: 10px;
 }
 
+.gif :hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
